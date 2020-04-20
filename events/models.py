@@ -3,7 +3,7 @@ from django.db import models
 class Event(models.Model):
 
     """ simple model of an event app taking only 
-    name of the event, start date it include the time,
+    name of the event, start date it could include the time,
     end date also you could put the time, color and the
     details of the event"""
 
